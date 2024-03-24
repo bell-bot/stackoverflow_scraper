@@ -1,0 +1,17 @@
+[project]
+name = "stackoverflow-QA-scraper"
+version = "0.0.1"
+dependencies = [
+  "requests",
+  "unittest2",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "Annabel Jakob", email = "annabel.s.jakob@gmail.com"},
+]
+description = "Extracting questions and answers about the Python programming language on stack overflow and saving them to a .csv file"
+readme = "README.rst"
+license = {file = "LICENSE.txt"}
+
+[project.scripts]
+test = "python -m unittest"
